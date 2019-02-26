@@ -18,6 +18,6 @@
   * [weather-app](https://github.com/Irina-Dovgyalo/js-pro-course/tree/DOM_BOM_browser-storage)
 6. **Education:** BNTU, Architecture
 7. **IT Educations:**
-  * Courses [teachmeskills](https://teachmeskills.by) **"Frontend developer"**, September 2018 – February 2019.
-  * Courses [myfreedom](https://myfreedom.by) **"Pre-course: Frontend developer"**, June 2018.
+  * Courses [teachmeskills](https://teachmeskills.by/full-fe-40) **"Frontend developer"**, September 2018 – February 2019.
+  * Courses [myfreedom](https://myfreedom.by/courses/web-design/precourse) **"Pre-course: Frontend developer"**, June 2018.
 8. **English language:** А2 / Pre-Intermediate (reading and understanding of technical documentation)
