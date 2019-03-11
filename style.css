@@ -44,11 +44,16 @@ h2 {
     margin-bottom: 1.5em;
 }
 
+.about {
+    padding: 1em;
+}
+
 .contacts {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    margin-bottom: 1.5em;
 }
 
 a {
@@ -57,11 +62,15 @@ a {
 }
 
 a:hover {
-    opacity: 0.5;
+    color: #1C9C94;
 }
 
-.fab,
-.fas {
+.phone,
+.mail {
+    margin-right: 2em;
+}
+
+.fab {
     border: 1px solid #10192ad6;
     border-radius: 50%;
     font-size: 1.5em;
@@ -72,6 +81,41 @@ a:hover {
     text-align: center;
 }
 
+.fas {
+    margin-right: 0.5em;
+}
 
+.info {
+    padding: 1.5em;
+}
 
-/* #1C9C94 */
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: start;    
+}
+
+.skills {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.skills-title {
+    padding-right: 2.8em;
+}
+
+h3 {
+    color: #1C9C94;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-right: 2em;
+}
+
+.description {
+    line-height: 1.8;
+}
+
+ul {
+    line-height: 1.8;
+}
