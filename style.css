@@ -15,31 +15,63 @@ body {
 }
 
 .header {
-    padding: 2em;
-    text-align: center;
     background-image: url('./img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    padding: 2em;
+    text-align: center;
     color: #10192ad6;
-  }
+}
 
-  .header img {
+.header img {
+    max-width: 150px;
     padding: 10px;
     background: white;
-    border-radius: 50%;
-    max-width: 150px;
+    border-radius: 50%;    
     margin-top: 1em;
-  }
+}
 
-  h1 {
-      text-transform: uppercase;
-      font-size: 2em;
-      margin: 1.5em;
-  }
+h1 {    
+    font-size: 2em;
+    margin: 1.5em;
+    text-transform: uppercase;
+}
 
-  h2 {
-      font-size: 1.5em;
-      text-transform: uppercase;
-      margin: 0;
-  }
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+a {
+    color: #10192ad6;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.fab,
+.fas {
+    border: 1px solid #10192ad6;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+/* #1C9C94 */
