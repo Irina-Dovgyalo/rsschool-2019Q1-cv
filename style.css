@@ -124,7 +124,7 @@ h3 {
     padding-right: 2em;
 }
 
-.description, ul {
+.description, .skills-description {
     line-height: 1.8;
     margin-bottom: 2.5em;
 }
