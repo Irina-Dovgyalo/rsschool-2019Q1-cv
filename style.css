@@ -67,7 +67,7 @@ a {
 
 a:hover {
     color: #1692b9;
-    transition: linear 0.15s;
+    transition: linear 0.1s;
 }
 
 .mail,
@@ -103,15 +103,14 @@ a:hover {
 .summary {
     display: flex;
     justify-content: center;
-    align-items: start;    
-    margin-bottom: 2em;
+    align-items: start;  
 }
 
 .skills {
     display: flex;
     justify-content: start;
     align-items: start;
-    margin-bottom: 2em;
+    padding: 1.8em 0 0 0;
 }
 
 .skills-title {
@@ -134,7 +133,7 @@ h3 {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-bottom: 2em;    
+    padding: 1.8em 0 1.8em 0;
 }
 
 .code-examples-description {
@@ -151,6 +150,5 @@ h3 {
 .clicker-app,
 .emoji,
 .weather-app {
-    margin-right: 2em;
-    margin-bottom: 1.5em;
+    margin: 1.5em 2em 1.5em 0;
 }
