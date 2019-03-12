@@ -111,7 +111,6 @@ a:hover {
 }
 
 h3 {
-    /* color: #1C9C94; */
     color: #1692b9;
     font-size: 1.2em;
     font-weight: 700;
@@ -124,4 +123,8 @@ h3 {
 
 ul {
     line-height: 1.8;
+}
+
+.code-examples ul {
+    text-decoration: none;
 }
