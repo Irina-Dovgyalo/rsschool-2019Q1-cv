@@ -107,7 +107,7 @@ a:hover {
 }
 
 .summary-title {
-    padding-right: 5em;
+    padding-right: 6em;
 }
 
 .skills {
@@ -115,10 +115,6 @@ a:hover {
     justify-content: start;
     align-items: start;
     padding: 1.8em 0 0 0;
-}
-
-.skills-title {
-    padding-right: 6em;
 }
 
 h3 {
@@ -131,6 +127,10 @@ h3 {
 .description, .skills-description {
     line-height: 1.8;
     margin-bottom: 2.5em;
+}
+
+.skills-title {
+    padding-right: 9em;
 }
 
 .skills-description {
@@ -152,7 +152,7 @@ h3 {
 }
 
 .code-examples-title {
-    padding-right: 2.4em;
+    padding-right: 3em;
 }
 
 .code-examples-description i {
@@ -173,7 +173,7 @@ h3 {
 }
 
 .education-title {
-    padding-right: 5em;
+    padding-right: 5.6em;
 }
 
 .it-education {
@@ -189,6 +189,10 @@ h3 {
 
 .it-education a {
     font-weight: 600;
+}
+
+.it-education-title {
+    padding-right: 5em;
 }
 
 .it-education-description {
