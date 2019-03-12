@@ -106,6 +106,10 @@ a:hover {
     align-items: start;  
 }
 
+.summary-title {
+    padding-right: 5em;
+}
+
 .skills {
     display: flex;
     justify-content: start;
@@ -114,7 +118,7 @@ a:hover {
 }
 
 .skills-title {
-    padding-right: 2.8em;
+    padding-right: 6em;
 }
 
 h3 {
@@ -129,6 +133,10 @@ h3 {
     margin-bottom: 2.5em;
 }
 
+.skills-description {
+    padding-left: 0;
+}
+
 .code-examples {
     display: flex;
     justify-content: start;
@@ -141,6 +149,10 @@ h3 {
     flex-wrap: wrap;
     justify-content: start;
     align-items: center;
+}
+
+.code-examples-title {
+    padding-right: 2.4em;
 }
 
 .code-examples-description i {
@@ -160,10 +172,14 @@ h3 {
     padding: 1.8em 0 1.8em 0;
 }
 
+.education-title {
+    padding-right: 5em;
+}
+
 .it-education {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     padding: 1.8em 0 1.8em 0;
 }
 
@@ -178,5 +194,17 @@ h3 {
 .it-education-description {
     line-height: 1.8;
     margin-bottom: 2.5em;
+    padding-left: 0;
 }
 
+.language {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1.8em 0 0 0;
+}
+
+.language-description {
+    line-height: 1.8;
+    margin-bottom: 2.5em;
+}
