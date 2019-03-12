@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    color: #40514E;
 }
 
 .wrapper {
@@ -28,20 +29,23 @@ body {
     max-width: 150px;
     padding: 10px;
     background: white;
-    border-radius: 50%;    
-    margin-top: 1em;
+    border-radius: 50%;  
+    margin-bottom: 1.5em;
+}
+
+.title {
+    padding: 1em 0;
 }
 
 h1 {    
     font-size: 2em;
-    margin: 1.5em;
     text-transform: uppercase;
+    /* color: #1C9C94;  */
 }
 
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
-    margin-bottom: 1.5em;
 }
 
 .about {
@@ -62,12 +66,13 @@ a {
 }
 
 a:hover {
-    color: #1C9C94;
+    color: #1692b9;
+    transition: linear 0.15s;
 }
 
-.phone,
-.mail {
-    margin-right: 2em;
+.mail,
+.phone {
+    margin: 0 1em 1em 1em;
 }
 
 .fab {
@@ -106,7 +111,8 @@ a:hover {
 }
 
 h3 {
-    color: #1C9C94;
+    /* color: #1C9C94; */
+    color: #1692b9;
     font-size: 1.2em;
     font-weight: 700;
     padding-right: 2em;
