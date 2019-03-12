@@ -91,19 +91,23 @@ a:hover {
 }
 
 .info {
-    padding: 1.5em;
+    padding: 2em 1.5em;
 }
 
 .summary {
     display: flex;
     justify-content: center;
     align-items: start;    
+    margin-bottom: 2em;
+    border-bottom: 1px solid #d5dada;
 }
 
 .skills {
     display: flex;
     justify-content: start;
     align-items: start;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #d5dada;
 }
 
 .skills-title {
@@ -117,14 +121,33 @@ h3 {
     padding-right: 2em;
 }
 
-.description {
+.description, ul {
     line-height: 1.8;
+    margin-bottom: 2.5em;
 }
 
-ul {
-    line-height: 1.8;
+.code-examples {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #d5dada;
 }
 
-.code-examples ul {
-    text-decoration: none;
+.code-examples-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.code-examples-description i {
+    color: #1692b9;
+}
+
+.clicker-app,
+.emoji,
+.weather-app {
+    margin-right: 2em;
+    margin-bottom: 1.5em;
 }
