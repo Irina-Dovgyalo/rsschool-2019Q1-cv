@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
+
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #40514E;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 2em;
+    text-align: center;
+    color: #10192ad6;
+}
+
+.header img {
+    max-width: 150px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;  
+    margin-bottom: 1.5em;
+}
+
+.title {
+    padding: 1em 0;
+}
+
+h1 {    
+    font-size: 2em;
+    text-transform: uppercase;
+    /* color: #1C9C94;  */
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.about {
+    padding: 1em;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+a {
+    color: #10192ad6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1692b9;
+    transition: linear 0.1s;
+}
+
+.mail,
+.phone {
+    margin: 0 1em 1em 1em;
+}
+
+.fab {
+    border: 1px solid #10192ad6;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 5px;
+    text-align: center;
+}
+
+.fas {
+    margin-right: 0.5em;
+}
+
+.info {
+    padding: 2em 1.5em;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #d5dada;
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: start;  
+}
+
+.summary-title {
+    padding-right: 6em;
+}
+
+.skills {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1.8em 0 0 0;
+}
+
+h3 {
+    color: #1692b9;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-right: 2em;
+}
+
+.description, .skills-description {
+    line-height: 1.8;
+    margin-bottom: 2.5em;
+}
+
+.skills-title {
+    padding-right: 9em;
+}
+
+.skills-description {
+    padding-left: 0;
+}
+
+.code-examples {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.8em 0 1.8em 0;
+}
+
+.code-examples-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.code-examples-title {
+    padding-right: 3em;
+}
+
+.code-examples-description i {
+    color: #1692b9;
+}
+
+.clicker-app,
+.emoji,
+.weather-app {
+    margin: 1.5em 2em 1.5em 0;
+}
+
+.education {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.8em 0 1.8em 0;
+}
+
+.education-title {
+    padding-right: 5.6em;
+}
+
+.it-education {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1.8em 0 1.8em 0;
+}
+
+.it-education span {
+    font-weight: 600;
+}
+
+.it-education a {
+    font-weight: 600;
+}
+
+.it-education-title {
+    padding-right: 5em;
+}
+
+.it-education-description {
+    line-height: 1.8;
+    margin-bottom: 2.5em;
+    padding-left: 0;
+}
+
+.language {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1.8em 0 0 0;
+}
+
+.language-description {
+    line-height: 1.8;
+    margin-bottom: 2.5em;
+}
