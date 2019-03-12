@@ -94,12 +94,17 @@ a:hover {
     padding: 2em 1.5em;
 }
 
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #d5dada;
+}
+
 .summary {
     display: flex;
     justify-content: center;
     align-items: start;    
     margin-bottom: 2em;
-    border-bottom: 1px solid #d5dada;
 }
 
 .skills {
@@ -107,7 +112,6 @@ a:hover {
     justify-content: start;
     align-items: start;
     margin-bottom: 2em;
-    border-bottom: 1px solid #d5dada;
 }
 
 .skills-title {
@@ -130,8 +134,7 @@ h3 {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-bottom: 2em;
-    border-bottom: 1px solid #d5dada;
+    margin-bottom: 2em;    
 }
 
 .code-examples-description {
